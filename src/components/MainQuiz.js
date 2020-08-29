@@ -10,7 +10,9 @@ class MainQuiz extends React.Component {
     disabled: true,
     isEnd: false
   };
-
+  refreshPage = () => {
+    window.location.reload()
+  }
   loadQuizData = () => {
     // console.log(quizData[0].question)
     this.setState(() => {
@@ -86,6 +88,8 @@ class MainQuiz extends React.Component {
               ))}
             </ul>
           </div>
+          <button type="button" onClick={ this.refreshPage }> <span>Try Again!</span> </button> 
+
         </div>
       );
     } else {
