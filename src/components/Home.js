@@ -4,10 +4,14 @@ import { Link } from 'react-router-dom';
 const Home = () => {
 return (
     <div>
-    <div>Hello</div>
+    <div>Hello and welcome to Sports Trivia!</div>
     <Link to="/main" className="item">
                 Main
-            </Link>
+    </Link>
+    <Link to="/baseball" className="item">
+                Baseball Quiz
+    </Link>
+
     </div>
 )
 }
