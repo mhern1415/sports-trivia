@@ -4,6 +4,7 @@ import Home from './Home';
 import MainQuiz from './MainQuiz';
 import Header from './Header'
 import BaseballQuiz from './BaseballQuiz';
+import BasketballQuiz from './BasketballQuiz';
 
 
 
@@ -17,6 +18,7 @@ class App extends React.Component {
                 <Header />
                 <Switch>
                 <Route path="/baseball" exact component={BaseballQuiz}/>
+                <Route path="/basketball" exact component={BasketballQuiz}/>
                 <Route path="/" exact component={Home}/>
                 <Route path="/main" exact component={MainQuiz}/>
                 </Switch>
