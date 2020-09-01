@@ -8,10 +8,14 @@ return (
     <Link to="/main" className="item">
                 Main
     </Link>
+    <br></br>
     <Link to="/baseball" className="item">
                 Baseball Quiz
     </Link>
-
+    <br></br>
+    <Link to="/basketball" className="item">
+                Basketball Quiz
+    </Link>
     </div>
 )
 }
