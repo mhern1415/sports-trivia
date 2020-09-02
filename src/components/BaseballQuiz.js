@@ -1,6 +1,5 @@
 import React from "react";
 import { BaseballData } from "./BaseballData";
-import { Link } from 'react-router-dom';
 
 
 class BaseballQuiz extends React.Component {
@@ -99,8 +98,7 @@ class BaseballQuiz extends React.Component {
       return (
         <div className="App">
           <h1>{this.state.questions} </h1>
-          <span>{`Questions ${currentQuestion}  out of ${BaseballData.length -
-            1} remaining `}</span>
+          <span>{`Question ${currentQuestion + 1} of ${BaseballData.length}`}</span>
           {options.map(option => (
             <p
               key={option.id}

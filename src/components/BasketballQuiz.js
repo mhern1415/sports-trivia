@@ -98,8 +98,7 @@ class BasketballQuiz extends React.Component {
       return (
         <div className="App">
           <h1>{this.state.questions} </h1>
-          <span>{`Questions ${currentQuestion}  out of ${BasketballData.length -
-            1} remaining `}</span>
+          <span>{`Question ${currentQuestion + 1} of ${BasketballData.length}`}</span>
           {options.map(option => (
             <p
               key={option.id}
