@@ -71,13 +71,30 @@ class MainQuiz extends React.Component {
       });
     }
   };
+  renderMessage = () => {
+    if (this.state.score === 4) {
+      return (<div><h3>Nice!! You got every question correct! Give yourself a pat on the back!</h3></div>)
+    }
+    if (this.state.score === 3) {
+      return (<div><h3>Almost! You answered 3 questions correct!</h3></div>)
+    }
+    if (this.state.score === 2) {
+      return(<div><h3>Not bad! You answered 2 questions correctly! Give it another shot!</h3></div>)
+    }
+    if (this.state.score === 1) {
+      return (<div><h3>Well, 1 is better than none I guess... Try Again!!</h3></div>)
+    }
+    else {
+      return (<div><h3>Start over and try this time..</h3></div>)
+    }
+  }
   render() {
     const { options, myAnswer, currentQuestion, isEnd } = this.state;
 
     if (isEnd) {
       return (
         <div className="result">
-          <h3>Game Over your Final score is {this.state.score} points </h3>
+            {this.renderMessage()}
           <div>
             The correct answer's were:
             <ul>
