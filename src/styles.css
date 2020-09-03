@@ -18,8 +18,11 @@ body {
 
 .result {
   margin-top: 20px;
+  text-align: center;
 }
-
+.gif {
+  text-align: center;
+}
 .options {
   cursor: pointer;
   border: 2px solid black;

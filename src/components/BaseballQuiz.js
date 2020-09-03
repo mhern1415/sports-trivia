@@ -74,7 +74,7 @@ class BaseballQuiz extends React.Component {
   };
   renderMessage = () => {
     if (this.state.score === 4) {
-      return (<div><h3>Nice!! You got every question correct! Give yourself a pat on the back!</h3></div>)
+      return (<div classname="gif"><iframe src="https://giphy.com/embed/2RGhmKXcl0ViM" width="477" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yes-daniel-bryan-happy-2RGhmKXcl0ViM"></a></p><h3>Nice!! You got every question correct! Give yourself a pat on the back!</h3></div>)
     }
     if (this.state.score === 3) {
       return (<div><h3>Almost! You answered 3 questions correct!</h3></div>)
