@@ -98,8 +98,6 @@ class BaseballQuiz extends React.Component {
             {this.renderMessage()}
           <div>
             The correct answer's were:
-
-
             <ul>
               {BaseballData.map((item, index) => (
                 <li className="ui floating message options" key={index}>
