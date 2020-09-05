@@ -72,16 +72,16 @@ class MainQuiz extends React.Component {
     }
   };
   renderMessage = () => {
-    if (this.state.score === 4) {
-      return (<div><h3>Nice!! You got every question correct! Give yourself a pat on the back!</h3></div>)
+    if (this.state.score === 5) {
+      return (<div classname="gif"><iframe src="https://giphy.com/embed/2RGhmKXcl0ViM" width="477" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yes-daniel-bryan-happy-2RGhmKXcl0ViM"></a></p><h3>Nice!! You got every question correct! Give yourself a pat on the back!</h3></div>)
     }
-    if (this.state.score === 3) {
+    if (this.state.score === 4) {
       return (<div><h3>Almost! You answered 3 questions correct!</h3></div>)
     }
-    if (this.state.score === 2) {
+    if (this.state.score === 3) {
       return(<div><h3>Not bad! You answered 2 questions correctly! Give it another shot!</h3></div>)
     }
-    if (this.state.score === 1) {
+    if (this.state.score === 2) {
       return (<div><h3>Well, 1 is better than none I guess... Try Again!!</h3></div>)
     }
     else {
