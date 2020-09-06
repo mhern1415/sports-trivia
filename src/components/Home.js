@@ -16,6 +16,10 @@ return (
     <Link to="/basketball" className="item">
                 Basketball Quiz
     </Link>
+    <br></br>
+    <Link to="/football" className="item">
+                Football Quiz
+    </Link>
     </div>
 )
 }

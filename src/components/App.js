@@ -1,10 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './Home';
-import MainQuiz from './MainQuiz';
+import MainQuiz from './Quizzes/MainQuiz';
 import Header from './Header'
-import BaseballQuiz from './BaseballQuiz';
-import BasketballQuiz from './BasketballQuiz';
+import BaseballQuiz from './Quizzes/BaseballQuiz';
+import BasketballQuiz from './Quizzes/BasketballQuiz';
+import FootballQuiz from './Quizzes/FootballQuiz';
 
 
 
@@ -19,6 +20,7 @@ class App extends React.Component {
                 <Switch>
                 <Route path="/baseball" exact component={BaseballQuiz}/>
                 <Route path="/basketball" exact component={BasketballQuiz}/>
+                <Route path="/Football" exact component={FootballQuiz}/>
                 <Route path="/" exact component={Home}/>
                 <Route path="/main" exact component={MainQuiz}/>
                 </Switch>
