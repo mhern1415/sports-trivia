@@ -1,4 +1,4 @@
-export const quizData = [
+export const MainQuizData = [
     {
       id: 0,
       question: ` Which NFL team has the longest season-ticket waiting list?`,

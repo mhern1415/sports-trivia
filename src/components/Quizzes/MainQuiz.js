@@ -1,5 +1,5 @@
 import React from "react";
-import { quizData } from "../QuizData/quizData";
+import { MainQuizData } from "../QuizData/MainQuizData";
 
 class MainQuiz extends React.Component {
   state = {
@@ -17,9 +17,9 @@ class MainQuiz extends React.Component {
     // console.log(quizData[0].question)
     this.setState(() => {
       return {
-        questions: quizData[this.state.currentQuestion].question,
-        answer: quizData[this.state.currentQuestion].answer,
-        options: quizData[this.state.currentQuestion].options
+        questions: MainQuizData[this.state.currentQuestion].question,
+        answer: MainQuizData[this.state.currentQuestion].answer,
+        options: MainQuizData[this.state.currentQuestion].options
       };
     });
   };
@@ -48,9 +48,9 @@ class MainQuiz extends React.Component {
       this.setState(() => {
         return {
           disabled: true,
-          questions: quizData[this.state.currentQuestion].question,
-          options: quizData[this.state.currentQuestion].options,
-          answer: quizData[this.state.currentQuestion].answer
+          questions: MainQuizData[this.state.currentQuestion].question,
+          options: MainQuizData[this.state.currentQuestion].options,
+          answer: MainQuizData[this.state.currentQuestion].answer
         };
       });
     }
@@ -60,7 +60,7 @@ class MainQuiz extends React.Component {
     this.setState({ myAnswer: answer, disabled: false });
   };
   finishHandler = () => {
-    if (this.state.currentQuestion === quizData.length - 1) {
+    if (this.state.currentQuestion === MainQuizData.length - 1) {
       this.setState({
         isEnd: true
       });
@@ -98,7 +98,7 @@ class MainQuiz extends React.Component {
           <div>
             The correct answer's were:
             <ul>
-              {quizData.map((item, index) => (
+              {MainQuizData.map((item, index) => (
                 <li className="ui floating message options" key={index}>
                   {item.answer}
                 </li>
@@ -113,7 +113,7 @@ class MainQuiz extends React.Component {
       return (
         <div className="App">
           <h1>{this.state.questions} </h1>
-          <span>{`Question ${currentQuestion + 1} of ${quizData.length}`}</span>
+          <span>{`Question ${currentQuestion + 1} of ${MainQuizData.length}`}</span>
           {options.map(option => (
             <p
               key={option.id}
@@ -125,7 +125,7 @@ class MainQuiz extends React.Component {
               {option}
             </p>
           ))}
-          {currentQuestion < quizData.length - 1 && (
+          {currentQuestion < MainQuizData.length - 1 && (
             <button
               className="ui inverted button"
               disabled={this.state.disabled}
@@ -135,7 +135,7 @@ class MainQuiz extends React.Component {
             </button>
           )}
           {/* //adding a finish button */}
-          {currentQuestion === quizData.length - 1 && (
+          {currentQuestion === MainQuizData.length - 1 && (
             <button className="ui inverted button" onClick={this.finishHandler}>
               Finish
             </button>
