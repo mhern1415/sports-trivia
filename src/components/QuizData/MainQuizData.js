@@ -2,19 +2,19 @@ export const MainQuizData = [
     {
       id: 0,
       question: ` Which NFL team has the longest season-ticket waiting list?`,
-      options: [`New England Patriots`, `San Francisco 49ers`, `Green Bay Packers`],
+      options: [`New England Patriots`, `San Francisco 49ers`, `Green Bay Packers`, `Dallas Cowboys` ],
       answer: `Green Bay Packers`
     },
     {
       id: 1,
       question: `Which player was the MVP of the 2014 NBA Finals?`,
-      options: [`Kevin Durant`, `Kawhi Leonard`, `LeBron James`],
+      options: [`Kevin Durant`, `Kawhi Leonard`, `LeBron James`, `Dwayne Wade`],
       answer: `Kawhi Leonard`
     },
     {
       id: 3,
       question: `What is the regulation height for a basketball hoop?`,
-      options: [`9.5 Feet`, `10.5 Feet`, `10 Feet`],
+      options: [`9.5 Feet`, `10.5 Feet`, `10 Feet`, `10.25 Feet`],
       answer: `10 Feet`
     },
     {
