@@ -12,13 +12,13 @@ export const BaseballData = [
       answer: `Willie Mays`
     },
     {
-      id: 3,
+      id: 2,
       question: `Which team represented the National League in the World Series in 2010, 2012, and 2014?`,
       options: [`San Francisco Giants`, `Los Angeles Dodgers`, `Philadelphia Phillies`, `The New York Yankees`],
       answer: `San Francisco Giants`
     },
     {
-      id: 4,
+      id: 3,
       question: `During which inning is "Take Me Out to the Ballgame" traditionally sung?`,
       options: [`8th`, `6th`, `9th`, `7th`],
       answer: `7th`

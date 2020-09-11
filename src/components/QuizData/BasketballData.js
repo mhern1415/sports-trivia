@@ -12,13 +12,13 @@ export const BasketballData = [
       answer: `Boston Celtics`
     },
     {
-      id: 3,
+      id: 2,
       question: `Who was the first NBA player to test positive for COVID-19?`,
       options: [`Donovan Mitchell`, `Bojan Bogdanovic`, `Jordan Clarkson`, `Rudy Gobert`],
       answer: `Rudy Gobert`
     },
     {
-      id: 4,
+      id: 3,
       question: `What is the regulation height for a basketball hoop?`,
       options: [`10 Feet`, `9 Feet`, `9.5 Feet`, `10.5 Feet`],
       answer: `10 Feet`
