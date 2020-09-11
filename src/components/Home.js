@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
 return (
-    <div>
+    <div className="ui grid">
     <div>Hello and welcome to Sports Trivia!</div>
     <Link to="/main" className="item">
                 Main
