@@ -117,6 +117,7 @@ class BasketballQuiz extends React.Component {
       );
     } else {
       return (
+        <div className="ui container">
         <div className="App">
           <h1>{this.state.questions} </h1>
           <span>{`Question ${currentQuestion + 1} of ${BasketballData.length}`}</span>
@@ -146,6 +147,7 @@ class BasketballQuiz extends React.Component {
               Finish
             </button>
           )}
+        </div>
         </div>
       );
     }

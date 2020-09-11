@@ -90,7 +90,7 @@ class MainQuiz extends React.Component {
   }
   render() {
     const { options, myAnswer, currentQuestion, isEnd } = this.state;
-
+    
     if (isEnd) {
       return (
         <div className="result">
@@ -111,6 +111,7 @@ class MainQuiz extends React.Component {
       );
     } else {
       return (
+        <div className="ui container">
         <div className="App">
           <h1>{this.state.questions} </h1>
           <span>{`Question ${currentQuestion + 1} of ${MainQuizData.length}`}</span>
@@ -140,6 +141,7 @@ class MainQuiz extends React.Component {
               Finish
             </button>
           )}
+        </div>
         </div>
       );
     }
