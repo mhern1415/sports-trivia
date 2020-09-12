@@ -93,7 +93,9 @@ class MainQuiz extends React.Component {
     
     if (isEnd) {
       return (
-        <div className="result">
+        <div className="ui container">
+
+        <div className="ui container">
             {this.renderMessage()}
           <div>
             The correct answer's were:
@@ -105,8 +107,10 @@ class MainQuiz extends React.Component {
               ))}
             </ul>
           </div>
-          <button type="button" onClick={ this.refreshPage }> <span>Try Again!</span> </button> 
-
+          <div className="App">
+          <button className="ui button" onClick={ this.refreshPage }> <span>Try Again!</span> </button> 
+          </div>
+    </div>
         </div>
       );
     } else {
