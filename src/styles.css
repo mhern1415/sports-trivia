@@ -3,6 +3,11 @@
   text-align: center;
   color: #f1f2f6;
 }
+
+.home {
+  text-align: center;
+}
+
 body {
   font-size: 1.2rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -16,10 +21,7 @@ body {
   background:  #ad3100;
 }
 
-.result {
-  margin-top: 20px;
-  text-align: center;
-}
+
 .gif {
   text-align: center;
 }
