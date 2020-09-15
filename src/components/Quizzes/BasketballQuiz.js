@@ -74,7 +74,7 @@ class BasketballQuiz extends React.Component {
   };
   renderMessage = () => {
     if (this.state.score === 4) {
-      return (<div classname="gif"><iframe src="https://giphy.com/embed/2RGhmKXcl0ViM" width="477" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yes-daniel-bryan-happy-2RGhmKXcl0ViM"></a></p><h3>Nice!! You got every question correct! Give yourself a pat on the back!</h3></div>)
+      return (<div classname="gif"><iframe src="https://giphy.com/embed/2RGhmKXcl0ViM" width="300" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yes-daniel-bryan-happy-2RGhmKXcl0ViM"></a></p><h3>Nice!! You got every question correct! Give yourself a pat on the back!</h3></div>)
     }
     if (this.state.score === 3) {
       return (<div><h3>Almost! You answered 3 questions correct!</h3></div>)
@@ -94,16 +94,12 @@ class BasketballQuiz extends React.Component {
 
     if (isEnd) {
       return (
-        <div className="result">
-         
-        
-          <h3> 
+        <div className="ui container">
+
+        <div className="gif-container">
             {this.renderMessage()}
-          </h3>
           <div>
             The correct answer's were:
-
-
             <ul>
               {BasketballData.map((item, index) => (
                 <li className="ui floating message options" key={index}>
@@ -112,7 +108,10 @@ class BasketballQuiz extends React.Component {
               ))}
             </ul>
           </div>
-          <button type="button" onClick={ this.refreshPage }> <span>Try Again!</span> </button> 
+          <div className="App">
+          <button className="ui button" onClick={ this.refreshPage }> <span>Try Again!</span> </button> 
+          </div>
+    </div>
         </div>
       );
     } else {
