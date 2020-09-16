@@ -5,7 +5,7 @@
 }
 
 h3 {
-  color: rgb(243, 190, 67);
+  color: rgb(251, 255, 0);
   font-size: 3rem;
 }
 
@@ -30,8 +30,7 @@ body {
     #2c3e50,
     #bdc3c7
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background:  #ad3100;
-}
+  background: linear-gradient(140deg, #f82020 30%, #f3741f 70%);}
 
 .end-message {
   text-align: center;
@@ -49,7 +48,7 @@ body {
 }
 
 .selected {
-  background: linear-gradient(to right, #ecc100, #d85825) !important;
+  background: linear-gradient(to right, #fbff00, #fbff00) !important;
 }
 
 ul {
