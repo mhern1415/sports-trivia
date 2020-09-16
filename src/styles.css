@@ -4,6 +4,11 @@
   color: #f1f2f6;
 }
 
+h3 {
+  color: rgb(243, 190, 67);
+  font-size: 3rem;
+}
+
 .home {
   text-align: center;
 }
