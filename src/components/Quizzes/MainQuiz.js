@@ -9,7 +9,9 @@ class MainQuiz extends React.Component {
     options: [],
     score: 0,
     disabled: true,
-    isEnd: false
+    isEnd: false,
+    showing: false
+
   };
   refreshPage = () => {
     window.location.reload()
@@ -95,37 +97,41 @@ class MainQuiz extends React.Component {
   render() {
     const { options, myAnswer, currentQuestion, isEnd } = this.state;
     const percentage = ((currentQuestion) * 20);
+    const { showing } = this.state;
 
     if (isEnd) {
-      return (
-        <div className="ui container">
-        <div className="App">
-        <div className="gif-container">
-            {this.renderMessage()}
-            <br></br>
-            <br></br>
-          <div className="ui container">
-            The correct answer's were:
-            <ul>
-              {MainQuizData.map((item, index) => (
-                <li className="ui floating message options" key={index}>
-                  {item.answer}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="App">
-          <button className="ui button" onClick={ this.refreshPage }> <span>Try Again!</span> </button> 
-          </div>
-    </div>
-    </div>
+      return ( <div className="ui container">
+
+      <div className="gif-container">
+          {this.renderMessage()}
+          <br></br>
+          <button className="ui yellow massive labeled icon button" onClick={() => this.setState({ showing: !showing })} ><i class="eye icon"></i>Show me the correct answers!</button>  
+          <br></br>
+        <div style={{ display: (showing ? 'block' : 'none') }}>
+          <br></br>
+          The correct answer's were:
+
+          <ul>
+            {MainQuizData.map((item, index) => (
+              <li className="ui floating message options" key={index}>
+                {item.answer}
+              </li>
+            ))}
+          </ul>
         </div>
-      );
+        <div className="App">
+        <br></br>
+        <button className="ui yellow massive labeled icon button" onClick={ this.refreshPage }><i class="redo icon"></i>
+<span>Try Again!</span> </button> 
+        </div>
+  </div>
+      </div>
+    );
     } else {
       return (
         <div className="ui container">
         <div className="App">
-          <h1>{this.state.questions} </h1>
+          <h3>{this.state.questions} </h3>
           <ProgressBar striped variant="warning" now={percentage} />
           <span>{`Question ${currentQuestion + 1} of ${MainQuizData.length}`}</span>
           {options.map(option => (

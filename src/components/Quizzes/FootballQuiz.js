@@ -11,7 +11,9 @@ class FootballQuiz extends React.Component {
     options: [],
     score: 0,
     disabled: true,
-    isEnd: false
+    isEnd: false,
+    showing: false
+
   };
   refreshPage = () => {
     window.location.reload()
@@ -95,6 +97,7 @@ class FootballQuiz extends React.Component {
   render() {
     const { options, myAnswer, currentQuestion, isEnd } = this.state;
     const percentage = ((currentQuestion) * 25);
+    const { showing } = this.state;
 
     if (isEnd) {
       return (
@@ -102,10 +105,13 @@ class FootballQuiz extends React.Component {
 
         <div className="gif-container">
             {this.renderMessage()}
-            <button onclick={this.myFunction()}>Try it</button>
-
-          <div className="answers">
+            <br></br>
+            <button className="ui yellow massive labeled icon button" onClick={() => this.setState({ showing: !showing })} ><i class="eye icon"></i>Show me the correct answers!</button>  
+            <br></br>
+          <div style={{ display: (showing ? 'block' : 'none') }}>
+            <br></br>
             The correct answer's were:
+
             <ul>
               {FootballData.map((item, index) => (
                 <li className="ui floating message options" key={index}>
@@ -115,7 +121,9 @@ class FootballQuiz extends React.Component {
             </ul>
           </div>
           <div className="App">
-          <button className="ui button" onClick={ this.refreshPage }> <span>Try Again!</span> </button> 
+          <br></br>
+          <button className="ui yellow massive labeled icon button" onClick={ this.refreshPage }><i class="redo icon"></i>
+ <span>Try Again!</span> </button> 
           </div>
     </div>
         </div>
