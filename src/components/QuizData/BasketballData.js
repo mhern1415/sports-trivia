@@ -1,7 +1,7 @@
 export const BasketballData = [
     {
       id: 0,
-      question: ` Who was the first player in NBA history to be elected league MVP by a unanimous vote??`,
+      question: ` Who was the first player in NBA history to be elected league MVP by a unanimous vote?`,
       options: [`Lebron James`, `Michael Jordan`, `Stephen Curry`, `Magic Johnson`],
       answer: `Stephen Curry`
     },

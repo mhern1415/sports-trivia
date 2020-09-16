@@ -19,8 +19,8 @@ export const FootballData = [
     },
     {
       id: 3,
-      question: `What is the name of the NFL's all-star exhibition game??`,
-      options: [`The NFL Classis`, `League All-Star Game`, `The NFL's Best Game`, `Pro Bowl`],
+      question: `What is the name of the NFL's all-star exhibition game?`,
+      options: [`The NFL Classic`, `League All-Star Game`, `The NFL's Best Game`, `Pro Bowl`],
       answer: `Pro Bowl`
     }
   ];
