@@ -7,7 +7,14 @@
 .home {
   text-align: center;
 }
-
+.gif-container {
+  text-align: center;
+  margin: auto;
+}
+.embed {
+  text-align: center;
+  margin: auto;
+}
 body {
   font-size: 1.2rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -21,8 +28,13 @@ body {
   background:  #ad3100;
 }
 
+.end-message {
+  text-align: center;
+}
+
 
 .gif {
+  margin: auto;
   text-align: center;
 }
 .options {
@@ -32,7 +44,7 @@ body {
 }
 
 .selected {
-  background: linear-gradient(to right, #74ebd5, #acb6e5) !important;
+  background: linear-gradient(to right, #ecc100, #d85825) !important;
 }
 
 ul {
