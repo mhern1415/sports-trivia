@@ -5,42 +5,40 @@ const Home = () => {
 return (
     <div className="App">
     <div className="ui huge header">
-    <p>Welcome! Select a sport to begin!</p>
+    <h3>Welcome! Select a sport to begin!</h3>
     <br></br>
     </div>
         <div className="home">
             <div className="ui stackable two column grid">
                 <div className="column">
+                    <Link to="/main" className="item">
                     <button class="ui yellow massive labeled icon button">
                     <i class="globe icon"></i>
-                    <Link to="/main" className="item">
                       All Sports
-                    </Link>
                     </button>
+                    </Link>
                 </div>
                 <div className="column">
-                    <button class="ui yellow massive labeled icon button">
-                    <i class="baseball ball icon"></i>
                     <Link to="/baseball" className="item">
+                    <button class="ui yellow massive labeled icon button">
+                    <i class="baseball ball icon"></i> 
                      Baseball Quiz
-                    </Link>
                     </button>
+                    </Link>
                 </div>
                 <div className="column">
+                    <Link to="/football" className="item">
                     <button class="ui yellow massive labeled icon button">
                     <i class="football ball icon"></i>
-                    <Link to="/football" className="item">
                      Football Quiz
-                    </Link>
                     </button>
+                    </Link>
                 </div>
                 <div className="column">
-                    <button class="ui yellow massive labeled icon button">
-                    <i class="basketball ball icon"></i>
                     <Link to="/basketball" className="item">
-                    Basketball Quiz
+                    <button class="ui yellow massive labeled icon button">
+                    <i class="basketball ball icon"></i>Basketball Quiz</button>
                     </Link>
-                    </button>
                 </div>
             </div>
         </div>
