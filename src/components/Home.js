@@ -11,7 +11,7 @@ return (
         <div className="home">
             <div className="ui stackable two column grid">
                 <div className="column">
-                    <button class="ui black massive labeled icon button">
+                    <button class="ui yellow massive labeled icon button">
                     <i class="globe icon"></i>
                     <Link to="/main" className="item">
                       All Sports
@@ -19,7 +19,7 @@ return (
                     </button>
                 </div>
                 <div className="column">
-                    <button class="ui black massive labeled icon button">
+                    <button class="ui yellow massive labeled icon button">
                     <i class="baseball ball icon"></i>
                     <Link to="/baseball" className="item">
                      Baseball Quiz
@@ -27,7 +27,7 @@ return (
                     </button>
                 </div>
                 <div className="column">
-                    <button class="ui black massive labeled icon button">
+                    <button class="ui yellow massive labeled icon button">
                     <i class="football ball icon"></i>
                     <Link to="/football" className="item">
                      Football Quiz
@@ -35,7 +35,7 @@ return (
                     </button>
                 </div>
                 <div className="column">
-                    <button class="ui black massive labeled icon button">
+                    <button class="ui yellow massive labeled icon button">
                     <i class="basketball ball icon"></i>
                     <Link to="/basketball" className="item">
                     Basketball Quiz
