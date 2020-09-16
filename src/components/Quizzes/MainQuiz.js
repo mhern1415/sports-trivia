@@ -1,5 +1,6 @@
 import React from "react";
 import { MainQuizData } from "../QuizData/MainQuizData";
+import ProgressBar from 'react-bootstrap/ProgressBar'
 
 class MainQuiz extends React.Component {
   state = {
@@ -14,7 +15,6 @@ class MainQuiz extends React.Component {
     window.location.reload()
   }
   loadQuizData = () => {
-    // console.log(quizData[0].question)
     this.setState(() => {
       return {
         questions: MainQuizData[this.state.currentQuestion].question,
@@ -55,6 +55,7 @@ class MainQuiz extends React.Component {
       });
     }
   }
+
   //check answer
   checkAnswer = answer => {
     this.setState({ myAnswer: answer, disabled: false });
@@ -73,7 +74,7 @@ class MainQuiz extends React.Component {
   };
   renderMessage = () => {
     if (this.state.score === 5) {
-      return (<div classname="gif"><iframe src="https://giphy.com/embed/2RGhmKXcl0ViM" width="477" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yes-daniel-bryan-happy-2RGhmKXcl0ViM"></a></p><h3>Nice!! You got every question correct! Give yourself a pat on the back!</h3></div>)
+      return (<div classname="gif"><iframe src="https://giphy.com/embed/2RGhmKXcl0ViM" width="300" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yes-daniel-bryan-happy-2RGhmKXcl0ViM"></a></p><h3 className="end-message">Nice!! You got every question correct! Give yourself a pat on the back!</h3></div>)
     }
     if (this.state.score === 4) {
       return (<div><h3>Almost! You answered 3 questions correct!</h3></div>)
@@ -88,16 +89,22 @@ class MainQuiz extends React.Component {
       return (<div><h3>Start over and try this time..</h3></div>)
     }
   }
+
+
+
   render() {
     const { options, myAnswer, currentQuestion, isEnd } = this.state;
-    
+    const percentage = ((currentQuestion) * 20);
+
     if (isEnd) {
       return (
         <div className="ui container">
-
-        <div className="ui container">
+        <div className="App">
+        <div className="gif-container">
             {this.renderMessage()}
-          <div>
+            <br></br>
+            <br></br>
+          <div className="ui container">
             The correct answer's were:
             <ul>
               {MainQuizData.map((item, index) => (
@@ -111,6 +118,7 @@ class MainQuiz extends React.Component {
           <button className="ui button" onClick={ this.refreshPage }> <span>Try Again!</span> </button> 
           </div>
     </div>
+    </div>
         </div>
       );
     } else {
@@ -118,6 +126,7 @@ class MainQuiz extends React.Component {
         <div className="ui container">
         <div className="App">
           <h1>{this.state.questions} </h1>
+          <ProgressBar striped variant="warning" now={percentage} />
           <span>{`Question ${currentQuestion + 1} of ${MainQuizData.length}`}</span>
           {options.map(option => (
             <p

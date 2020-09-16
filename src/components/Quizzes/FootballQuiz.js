@@ -1,5 +1,7 @@
 import React from "react";
 import { FootballData } from "../QuizData/FootballData";
+import ProgressBar from 'react-bootstrap/ProgressBar'
+
 
 
 class FootballQuiz extends React.Component {
@@ -89,8 +91,10 @@ class FootballQuiz extends React.Component {
       return (<div><h3>Start over and try this time..</h3></div>)
     }
   }
+ 
   render() {
     const { options, myAnswer, currentQuestion, isEnd } = this.state;
+    const percentage = ((currentQuestion) * 25);
 
     if (isEnd) {
       return (
@@ -98,7 +102,9 @@ class FootballQuiz extends React.Component {
 
         <div className="gif-container">
             {this.renderMessage()}
-          <div>
+            <button onclick={this.myFunction()}>Try it</button>
+
+          <div className="answers">
             The correct answer's were:
             <ul>
               {FootballData.map((item, index) => (
@@ -116,9 +122,12 @@ class FootballQuiz extends React.Component {
       );
     } else {
       return (
+        
         <div className="ui container">
+          
         <div className="App">
           <h1>{this.state.questions} </h1>
+          <ProgressBar striped variant="warning" now={percentage} />
           <span>{`Question ${currentQuestion + 1} of ${FootballData.length}`}</span>
           {options.map(option => (
             <p

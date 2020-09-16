@@ -1,5 +1,6 @@
 import React from "react";
 import { BasketballData } from "../QuizData/BasketballData";
+import ProgressBar from 'react-bootstrap/ProgressBar'
 
 
 class BasketballQuiz extends React.Component {
@@ -91,6 +92,7 @@ class BasketballQuiz extends React.Component {
   }
   render() {
     const { options, myAnswer, currentQuestion, isEnd } = this.state;
+    const percentage = ((currentQuestion) * 25);
 
     if (isEnd) {
       return (
@@ -119,6 +121,7 @@ class BasketballQuiz extends React.Component {
         <div className="ui container">
         <div className="App">
           <h1>{this.state.questions} </h1>
+          <ProgressBar striped variant="warning" now={percentage} />
           <span>{`Question ${currentQuestion + 1} of ${BasketballData.length}`}</span>
           {options.map(option => (
             <p
