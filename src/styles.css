@@ -3,10 +3,13 @@
   text-align: center;
   color: #f1f2f6;
 }
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 h3 {
   color: rgb(251, 255, 0);
   font-size: 3rem;
+  font-family: 'Josefin Sans', cursive;
+
 }
 
 .home {
