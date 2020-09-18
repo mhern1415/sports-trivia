@@ -131,6 +131,7 @@ class MainQuiz extends React.Component {
       return (
         <div className="ui container">
         <div className="App">
+          <br></br>
           <h3>{this.state.questions} </h3>
           <ProgressBar striped variant="warning" now={percentage} />
           <span>{`Question ${currentQuestion + 1} of ${MainQuizData.length}`}</span>

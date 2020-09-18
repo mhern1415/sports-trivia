@@ -129,7 +129,8 @@ class BaseballQuiz extends React.Component {
       return (
         <div className="ui container">
         <div className="App">
-          <h1>{this.state.questions} </h1>
+          <br></br>
+          <h3>{this.state.questions} </h3>
           <ProgressBar striped variant="warning" now={percentage} />
           <span>{`Question ${currentQuestion + 1} of ${BaseballData.length}`}</span>
           {options.map(option => (
