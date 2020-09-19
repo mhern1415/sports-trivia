@@ -4,6 +4,7 @@ import Home from './Home';
 import MainQuiz from './Quizzes/MainQuiz';
 import Header from './Header'
 import BaseballQuiz from './Quizzes/BaseballQuiz';
+import BaseballEasyQuiz from './Quizzes/BaseballEasyQuiz';
 import BasketballQuiz from './Quizzes/BasketballQuiz';
 import FootballQuiz from './Quizzes/FootballQuiz';
 
@@ -21,6 +22,7 @@ class App extends React.Component {
                 <Route path="/baseball" exact component={BaseballQuiz}/>
                 <Route path="/basketball" exact component={BasketballQuiz}/>
                 <Route path="/Football" exact component={FootballQuiz}/>
+                <Route path="/baseballeasy" exact component={BaseballEasyQuiz}/>
                 <Route path="/" exact component={Home}/>
                 <Route path="/main" exact component={MainQuiz}/>
                 </Switch>
