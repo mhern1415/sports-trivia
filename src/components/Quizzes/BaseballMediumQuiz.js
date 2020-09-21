@@ -75,20 +75,26 @@ class BaseballMediumQuiz extends React.Component {
     }
   };
   renderMessage = () => {
+    if (this.state.score === 8) {
+      return (<div><h3>Nice! You got 8 out of 8 correct!</h3></div>)
+    }
+    if (this.state.score === 7) {
+      return (<div><h3>Not bad! You got 7 out of 8 correct!</h3></div>)
+    }
     if (this.state.score === 6) {
-      return (<div><h3>You got 6 out of 6 correct!</h3></div>)
+      return(<div><h3>You got 6 out of 8 correct!</h3></div>)
     }
     if (this.state.score === 5) {
-      return (<div><h3>You got 5 out of 6 correct!</h3></div>)
+      return (<div><h3>You got 5 out of 8 correct!</h3></div>)
     }
     if (this.state.score === 4) {
-      return(<div><h3>You got 4 out of 6 correct!</h3></div>)
+      return (<div><h3>You got 4 out of 8 correct!</h3></div>)
     }
     if (this.state.score === 3) {
-      return (<div><h3>You got 3 out of 6 correct!</h3></div>)
+      return (<div><h3>You got 3 out of 8 correct!</h3></div>)
     }
     if (this.state.score === 2) {
-      return (<div><h3>You got 2 out of 6 correct!</h3></div>)
+      return (<div><h3>You got 2 out of 8 correct!</h3></div>)
     }
     else {
       return (<div><h3>You suck.</h3></div>)
