@@ -36,6 +36,13 @@ return (
                      Easy Quiz
                     </button>
                     </Link></div>
+                    <div className="content">
+                    <Link to="/baseballmedium" className="item">
+                    <button class="ui yellow massive labeled icon button">
+                    <i class="baseball ball icon"></i> 
+                     Medium Quiz
+                    </button>
+                    </Link></div>
                     <div className="content"><Link to="/baseball" className="item">
                     <button class="ui yellow massive labeled icon button">
                     <i class="baseball ball icon"></i> 

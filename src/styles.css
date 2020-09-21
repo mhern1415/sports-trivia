@@ -11,6 +11,19 @@ h3 {
   font-family: 'Josefin Sans', cursive;
 
 }
+h2 {
+  color: rgb(255, 136, 0);
+  font-size: 3rem;
+  font-family: 'Josefin Sans', cursive;
+
+}
+.card {
+  color: rgb(255, 136, 0);
+}
+
+#ui-container {
+  background: #bdc3c7; /* fallback for old browsers */
+}
 
 .home {
   text-align: center;
