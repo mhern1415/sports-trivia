@@ -96,7 +96,7 @@ class BaseballEasyQuiz extends React.Component {
   }
   render() {
     const { options, myAnswer, currentQuestion, isEnd } = this.state;
-    const percentage = ((currentQuestion) * 16);
+    const percentage = ((currentQuestion) * 12.5);
     const { showing } = this.state;
 
     if (isEnd) {

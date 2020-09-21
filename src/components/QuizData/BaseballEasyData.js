@@ -25,7 +25,7 @@ export const BaseballEasyData = [
     },
     {
       id: 4,
-      question: `A starting baseball lineup is composed of how may players`,
+      question: `A starting baseball lineup is composed of how many players?`,
       options: [`7`, `8`, `9`, `10`],
       answer: `9`
     },
@@ -34,6 +34,18 @@ export const BaseballEasyData = [
       question: `When a player commits an error, what did he do?`,
       options: [`Getting out on the basebaths`, `Making a mistake on defense`, `Striking out`, `Forgetting to wear a cup`],
       answer: `Making a mistake on defense`
+    },
+    {
+      id: 6,
+      question: `In baseball, what is a southpaw?`,
+      options: [`A player from Alabama`, `A right handed batter`, `A switch hitting batter`, `A left handed pitcher`],
+      answer: `A left handed pitcher`
+    },
+    {
+      id: 7,
+      question: `In the division of innings, the home team bats during which part?`,
+      options: [`Top Half`, `Bottom Half`, `Middle Half`],
+      answer: `Bottom Half`
     }
 
 
