@@ -1,5 +1,5 @@
 import React from "react";
-import { BaseballData } from "../QuizData/BaseballData";
+import { BaseballData } from "../../QuizData/Baseball/BaseballData";
 import ProgressBar from 'react-bootstrap/ProgressBar'
 
 

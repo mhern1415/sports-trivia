@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import MainQuiz from './Quizzes/MainQuiz';
 import Header from './Header'
-import BaseballQuiz from './Quizzes/BaseballQuiz';
-import BaseballEasyQuiz from './Quizzes/BaseballEasyQuiz';
-import BaseballMediumQuiz from './Quizzes/BaseballMediumQuiz';
+import BaseballQuiz from './Quizzes/Baseball/BaseballQuiz';
+import BaseballEasyQuiz from './Quizzes/Baseball/BaseballEasyQuiz';
+import BaseballMediumQuiz from './Quizzes/Baseball/BaseballMediumQuiz';
 import BasketballQuiz from './Quizzes/BasketballQuiz';
 import FootballQuiz from './Quizzes/FootballQuiz';
 
