@@ -20,7 +20,7 @@ class App extends React.Component {
                 <div>
                 <Header />
                 <Switch>
-                <Route path="/baseball" exact component={BaseballQuiz}/>
+                <Route path="/baseballhard" exact component={BaseballQuiz}/>
                 <Route path="/basketball" exact component={BasketballQuiz}/>
                 <Route path="/Football" exact component={FootballQuiz}/>
                 <Route path="/baseballeasy" exact component={BaseballEasyQuiz}/>
