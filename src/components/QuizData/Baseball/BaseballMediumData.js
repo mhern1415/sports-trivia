@@ -1,10 +1,10 @@
 export const BaseballMediumData = [
-    {
-      id: 0,
-      question: `Which is a full-count?`,
-      options: [`2-2`, `3-1`, `3-2`, `4-2`],
-      answer: `3-2`
-    },
+  {
+    id: 0,
+    question: ` What is the name of the contest where baseball players try to hit as many home runs as they can?`,
+    options: [`The Home Run Tournament`, `The Home Run Derby`, `The Home Run Competition`, `The Home Run Contest`],
+    answer: `The Home Run Derby`
+  },
     {
       id: 1,
       question: `How many teams are in the MLB?`,
