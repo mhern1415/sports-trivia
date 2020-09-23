@@ -73,9 +73,9 @@ return (
                     <button class="ui yellow massive labeled icon button">
                     <i class="basketball ball icon"></i>Basketball Quiz</button>
                     </Link></div>
-                    <div className="content"><Link to="/basketball" className="item">
+                    <div className="content"><Link to="/basketballeasy" className="item">
                     <button class="ui yellow massive labeled icon button">
-                    <i class="basketball ball icon"></i>Basketball Quiz</button>
+                    <i class="basketball ball icon"></i>Easy Quiz</button>
                     </Link></div>
                     </div>
                 </div>
