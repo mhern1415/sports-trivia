@@ -39,7 +39,7 @@ export const BaseballMediumData = [
       id: 6,
       question: `Spring training is held in Arizona and what other state?`,
       options: [`California`, `Texas`, `Michigan`, `Florida`],
-      answer: `A left handed pitcher`
+      answer: `Florida`
     },
     {
       id: 7,
