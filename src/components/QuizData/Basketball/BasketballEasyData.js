@@ -7,45 +7,45 @@ export const BasketballEasyData = [
     },
     {
       id: 1,
-      question: `When a player is safe at home plate, what did he just score?`,
-      options: [`A goal`, `A field goal`, `A touchdown`, `A run`, `A score`],
-      answer: `A run`
+      question: `If the ball-handler takes three steps without dribbling, what violation did he commit?`,
+      options: [`Carrying`, `Double Dribble`, `Traveling`, `Goaltending`],
+      answer: `Traveling`
     },
     {
       id: 2,
-      question: `The Yankees represent which American city?`,
-      options: [`San Francisco`, `Los Angeles`, `Philadelphia`, `New York`, `Boston`, `Detroit`],
-      answer: `New York`
+      question: `How long is each quarter in a regulation NBA game?`,
+      options: [`12 Minutes`, `11 Minutes`, `10 Minutes`, `9 Minutes`],
+      answer: `12 Minutes`
     },
     {
       id: 3,
-      question: `How many outs is each teach allowed to commit before the teams switch sides?`,
-      options: [`3`, `4`, `2`, `5`],
-      answer: `3`
+      question: `What happens if the two teams' scores are tied at the end of regulation time?`,
+      options: [`The home team is awarded the win`, `There is a shootout`, `The game ends in a tie`, `The game goes into overtime`],
+      answer: `The game goes into overtime`
     },
     {
       id: 4,
-      question: `A starting baseball lineup is composed of how many players?`,
-      options: [`7`, `8`, `9`, `10`],
-      answer: `9`
+      question: `What is the regulation height for a basketball hoop?`,
+      options: [`10 Feet`, `9 Feet`, `9.5 Feet`, `10.5 Feet`],
+      answer: `10 Feet`
     },
     {
       id: 5,
-      question: `When a player commits an error, what did he do?`,
-      options: [`Getting out on the basebaths`, `Making a mistake on defense`, `Striking out`, `Forgetting to wear a cup`],
-      answer: `Making a mistake on defense`
+      question: `How many points is a free throw worth?`,
+      options: [`3`, `2`, `1`, `0.5`],
+      answer: `1`
     },
     {
       id: 6,
-      question: `In baseball, what is a southpaw?`,
-      options: [`A player from Alabama`, `A right handed batter`, `A switch hitting batter`, `A left handed pitcher`],
-      answer: `A left handed pitcher`
+      question: `How many total players are on the basketball court during a game? (Not counting the bench)`,
+      options: [`8`, `10`, `9`, `12`],
+      answer: `10`
     },
     {
       id: 7,
-      question: `In the division of innings, the home team bats during which part?`,
-      options: [`Top Half`, `Bottom Half`, `Middle Half`],
-      answer: `Bottom Half`
+      question: `How many points are awarded for shots from behind the arc?`,
+      options: [`2`, `3`, `1`, `4`],
+      answer: `3`
     }
 
 
