@@ -5,6 +5,7 @@
 }
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
+
 h3 {
   color: rgb(251, 255, 0);
   font-size: 3rem;
@@ -30,6 +31,10 @@ h2 {
 }
 .gif-container {
   text-align: center;
+  margin: auto;
+}
+.header {
+  padding: 10px;
   margin: auto;
 }
 .embed {

@@ -8,14 +8,29 @@ const Header = () => {
         <div className="header">
             <div className="ui secondary pointing menu">
             
-            <DropdownButton variant="warning" title="Go to..">
+            <DropdownButton variant="warning" size="lg" title="Go to..">
             <Link to="/" className="item">
                 Home
             </Link>
-            <Link to="/basketballmedium" className="item">
-                    <button class="ui yellow massive labeled icon button">
-                    <i class="basketball ball icon"></i>Medium Quiz</button>
-                    </Link>
+            <Link to="baseballeasy" className="item">
+                Baseball Easy
+            </Link>
+            <Link to="baseballmedium" className="item">
+                Baseball Medium
+            </Link>
+            <Link to="baseballhard" className="item">
+                Baseball Hard
+            </Link>
+            <Link to="basketballeasy" className="item">
+                Basketball Easy
+            </Link>
+            <Link to="basketballmedium" className="item">
+                Basketball Medium
+            </Link>
+            <Link to="basketballhard" className="item">
+                Basketball Hard
+            </Link>
+            
     </DropdownButton>
  
             </div>
