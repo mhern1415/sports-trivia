@@ -69,13 +69,17 @@ return (
                 <div className="column">
                     <div className="ui centered card">
                     <div class="header"><h2>Basketball</h2></div>
-                    <div className="content"><Link to="/basketball" className="item">
-                    <button class="ui yellow massive labeled icon button">
-                    <i class="basketball ball icon"></i>Basketball Quiz</button>
-                    </Link></div>
                     <div className="content"><Link to="/basketballeasy" className="item">
                     <button class="ui yellow massive labeled icon button">
                     <i class="basketball ball icon"></i>Easy Quiz</button>
+                    </Link></div>
+                    <div className="content"><Link to="/basketballmedium" className="item">
+                    <button class="ui yellow massive labeled icon button">
+                    <i class="basketball ball icon"></i>Medium Quiz</button>
+                    </Link></div>
+                    <div className="content"><Link to="/basketball" className="item">
+                    <button class="ui yellow massive labeled icon button">
+                    <i class="basketball ball icon"></i>Hard Quiz</button>
                     </Link></div>
                     </div>
                 </div>
