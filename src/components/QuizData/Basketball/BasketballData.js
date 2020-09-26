@@ -31,22 +31,22 @@ export const BasketballData = [
   },
   {
     id: 5,
-    question: `When a team gains possession of the ball, how many seconds do they have to put up a shot?`,
-    options: [`22`, `23`, `24`, `25`],
-    answer: `24`
+    question: `Which NBA legend has the most MVP awards?`,
+    options: [`Michael Jordan`, `Kareem Abdul-Jabbar`, `Wilt Chamberlain`, `Bill Russel`, `LeBron James`],
+    answer: `Kareem Abdul-Jabbar`
   },
   {
     id: 6,
-    question: `How do the referees determine who will start the game with possession of the ball?`,
-    options: [`Coin Flip`, `Tip Off`, `Home Team`, `Away Team`],
-    answer: `Tip Off`
+    question: `Which of these teams was never part of the NBA?`,
+    options: [`Dallas Rockets`, `Vancouver Grizzlies`, `Washington Bullets`, `Seattle Supersonics`],
+    answer: `Dallas Rockets`
   },
   {
     id: 7,
-    question: `Which position is typically responsible for orchestrating the offense?`,
-    options: [`Center`, `Small Forward`, `Shooting Guard`, `Point Guard`],
-    answer: `Point Guard`
+    question: `Who is the NBA all-time leader in blocked shots?`,
+    options: [`Patrick Ewing`, `Dikembe Mutombo`, `Hakeem Olajuwon`, `Shaquille O'Neal`],
+    answer: `Hakeem Olajuwon`
   }
 
-
+  
 ];
