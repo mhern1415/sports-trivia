@@ -1,33 +1,33 @@
 export const BasketballData = [
   {
     id: 0,
-    question: `Which NBA team has the most NBA Championships to date?`,
-    options: [`Los Angeles Lakers`, `Boston Celtics`, `Chicago Bulls`, `Golden State Warriors`],
-    answer: `Boston Celtics`
+    question: `What great player was picked as the model for the NBA's logo?`,
+    options: [`Bill Russel`, `Larry Bird`, `Jerry West`, `Magic Johnson`],
+    answer: `Jerry West`
     },
   {
     id: 1,
-    question: ` Who was the first player in NBA history to be elected league MVP by a unanimous vote?`,
-    options: [`Lebron James`, `Michael Jordan`, `Stephen Curry`, `Magic Johnson`],
-    answer: `Stephen Curry`
+    question: `Who is the only NBA player in history to score 100 points in a single game?`,
+    options: [`Wilt Chamberlain`, `Michael Jordan`, `Kobe Bryant`, `Kareem Abdul-Jabbar`],
+    answer: `Wilt Chamberlain`
     },
   {
     id: 2,
-    question: `In the NBA, many fouls is a player able to commit before being disqualified for the remainder of the game`,
-    options: [`3`, `4`, `5`, `6`, `7`],
-    answer: `6`
+    question: `LeBron James and Kobe Bryant share this in common.`,
+    options: [`Both went to UNC`, `Neither of them went to college`, `Both have 5 Championship Rings`, `Both of them are 4 time MVP's`],
+    answer: `Neither of them went to college`
   },
   {
     id: 3,
-    question: `In 2008, the Seattle Supersonics played their final game in Seattle and later became which NBA franchise?`,
-    options: [`Oklahoma City Thunder`, `New Orleans Pelicans`, `Charlotte Hornets`, `Brooklyn Nets`],
-    answer: `Oklahoma City Thunder`
+    question: `Oscar Robertson averaged a triple-double during the 1961-1962 season. Who is the only other NBA player to accomplish this feat?`,
+    options: [`Magic Johnson`, `James Harden`, `Wilt Chamberlain`, `Luka Doncic`, `Russel Westbrook`],
+    answer: `Russel Westbrook`
   },
   {
     id: 4,
-    question: `What does the term "double-double" mean?`,
-    options: [`A player reaches double digits in points`, `A player reaches double figures in two of the five main statistical categories`, `A team committing 10 fouls`, `Double Overtime`],
-    answer: `A player reaches double figures in two of the five main statistical categories`
+    question: `Who was the first foreign-born NBA player to become league MVP?`,
+    options: [`Pau Gasol`, `Toni Kukoc`, `Luka Doncic`, `Dirk Nowitzki`],
+    answer: `Dirk Nowitzki`
   },
   {
     id: 5,
