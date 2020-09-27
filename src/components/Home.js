@@ -54,6 +54,10 @@ return (
                 <div className="column">
                     <div className="ui centered card">
                     <div class="header"><h2>Football</h2></div>
+                    <div className="content"><Link to="/footballeasy" className="item">
+                    <button class="ui yellow massive labeled icon button">
+                    <i class="football ball icon"></i>Easy Quiz</button>
+                    </Link></div>
                     <div className="content"><Link to="/football" className="item">
                     <button class="ui yellow massive labeled icon button">
                     <i class="football ball icon"></i>

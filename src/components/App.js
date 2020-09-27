@@ -9,7 +9,9 @@ import BaseballMediumQuiz from './Quizzes/Baseball/BaseballMediumQuiz';
 import BasketballQuiz from './Quizzes/Basketball/BasketballQuiz';
 import BasketballEasyQuiz from './Quizzes/Basketball/BasketballEasyQuiz';
 import BasketballMediumQuiz from './Quizzes/Basketball/BasketballMediumQuiz';
-import FootballQuiz from './Quizzes/FootballQuiz';
+import FootballQuiz from './Quizzes/Football/FootballQuiz';
+import FootballEasyQuiz from './Quizzes/Football/FootballEasyQuiz';
+
 
 
 
@@ -26,7 +28,8 @@ class App extends React.Component {
                 <Route path="/basketballhard" exact component={BasketballQuiz}/>
                 <Route path="/basketballeasy" exact component={BasketballEasyQuiz}/>
                 <Route path="/basketballmedium" exact component={BasketballMediumQuiz}/>
-                <Route path="/Football" exact component={FootballQuiz}/>
+                <Route path="/football" exact component={FootballQuiz}/>
+                <Route path="/footballeasy" exact component={FootballEasyQuiz}/>
                 <Route path="/baseballeasy" exact component={BaseballEasyQuiz}/>
                 <Route path="/baseballmedium" exact component={BaseballMediumQuiz}/>
                 <Route path="/" exact component={Home}/>
