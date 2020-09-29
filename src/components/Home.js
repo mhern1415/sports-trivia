@@ -10,22 +10,8 @@ return (
     <br></br>
     </div>
         <div className="home">
-            <div className="ui stackable four column grid">
-                <div className="column">
-                    <div className="ui centered card">
-                    <div class="header"><h2>All Sports</h2></div>
-                    <div className="content"><Link to="/main" className="item">
-                    <button class="ui yellow massive labeled icon button">
-                    <i class="globe icon"></i>
-                      All Sports
-                    </button>
-                    </Link></div>
-                    <div className="content"><Link to="/basketball" className="item">
-                    <button class="ui yellow massive labeled icon button">
-                    <i class="basketball ball icon"></i>Basketball Quiz</button>
-                    </Link></div>
-                    </div>
-                </div>
+            <div className="ui stackable three column grid">
+                
                 <div className="column">
                     <div className="ui centered card">
                     <div class="header"><h2>Baseball</h2></div>
