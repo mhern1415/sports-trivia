@@ -7,7 +7,7 @@ export const FootballEasyData = [
     },
     {
       id: 1,
-      question: `Which position is responsible for calling the play on the field?`,
+      question: `Which position is responsible for calling the plays on the field?`,
       options: [`Tight End`, `Quarterback`, `Center`, `Linebacker`, `Wide Receiver`],
       answer: `Quarterback`
     },
@@ -37,15 +37,15 @@ export const FootballEasyData = [
     },
     {
       id: 6,
-      question: `IWhat is used to determine who gets the football first to start a game?`,
+      question: `What is used to determine who gets the football first to start a game?`,
       options: [`Rock, Paper, Scissors`, `Home team gets the ball first`, `Away team gets the ball first`, `Coin Flip`],
       answer: `Coin Flip`
     },
     {
       id: 7,
-      question: `In the division of innings, the home team bats during which part?`,
-      options: [`Top Half`, `Bottom Half`, `Middle Half`],
-      answer: `Bottom Half`
+      question: `How many points is a field goal worth?`,
+      options: [`4`, `3`, `5`, `2`],
+      answer: `3`
     }
 
 
