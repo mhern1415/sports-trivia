@@ -33,6 +33,9 @@ const Header = () => {
             <Link to="footballeasy" className="item">
                 Football Easy
             </Link>
+            <Link to="footballmedium" className="item">
+                Football Medium
+            </Link>
 
             
     </DropdownButton>

@@ -44,10 +44,10 @@ return (
                     <button class="ui yellow massive labeled icon button">
                     <i class="football ball icon"></i>Easy Quiz</button>
                     </Link></div>
-                    <div className="content"><Link to="/football" className="item">
+                    <div className="content"><Link to="/footballmedium" className="item">
                     <button class="ui yellow massive labeled icon button">
                     <i class="football ball icon"></i>
-                     Football Quiz
+                     Medium Quiz
                     </button>
                     </Link></div>
                     <div className="content"><Link to="/basketball" className="item">

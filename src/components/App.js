@@ -11,6 +11,8 @@ import BasketballEasyQuiz from './Quizzes/Basketball/BasketballEasyQuiz';
 import BasketballMediumQuiz from './Quizzes/Basketball/BasketballMediumQuiz';
 import FootballQuiz from './Quizzes/Football/FootballQuiz';
 import FootballEasyQuiz from './Quizzes/Football/FootballEasyQuiz';
+import FootballMediumQuiz from './Quizzes/Football/FootballMediumQuiz';
+
 
 
 
@@ -30,6 +32,7 @@ class App extends React.Component {
                 <Route path="/basketballmedium" exact component={BasketballMediumQuiz}/>
                 <Route path="/football" exact component={FootballQuiz}/>
                 <Route path="/footballeasy" exact component={FootballEasyQuiz}/>
+                <Route path="/footballmedium" exact component={FootballMediumQuiz}/>
                 <Route path="/baseballeasy" exact component={BaseballEasyQuiz}/>
                 <Route path="/baseballmedium" exact component={BaseballMediumQuiz}/>
                 <Route path="/" exact component={Home}/>
