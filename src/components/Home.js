@@ -50,9 +50,11 @@ return (
                      Medium Quiz
                     </button>
                     </Link></div>
-                    <div className="content"><Link to="/basketball" className="item">
+                    <div className="content"><Link to="/footballhard" className="item">
                     <button class="ui yellow massive labeled icon button">
-                    <i class="basketball ball icon"></i>Basketball Quiz</button>
+                    <i class="football ball icon"></i>
+                     Hard Quiz
+                    </button>
                     </Link></div>
                     </div>
                 </div>

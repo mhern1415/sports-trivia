@@ -77,26 +77,35 @@ class FootballQuiz extends React.Component {
     }
   };
   renderMessage = () => {
+    if (this.state.score === 8) {
+      return (<div><h3>Nice! You got 8 out of 8 correct!</h3></div>)
+    }
+    if (this.state.score === 7) {
+      return (<div><h3>Not bad! You got 7 out of 8 correct!</h3></div>)
+    }
+    if (this.state.score === 6) {
+      return(<div><h3>You got 6 out of 8 correct!</h3></div>)
+    }
+    if (this.state.score === 5) {
+      return (<div><h3>You got 5 out of 8 correct!</h3></div>)
+    }
     if (this.state.score === 4) {
-      return (<div classname="gif"><iframe src="https://giphy.com/embed/2RGhmKXcl0ViM" width="300" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yes-daniel-bryan-happy-2RGhmKXcl0ViM"></a></p><h3>Nice!! You got every question correct! Give yourself a pat on the back!</h3></div>)
+      return (<div><h3>You got 4 out of 8 correct!</h3></div>)
     }
     if (this.state.score === 3) {
-      return (<div><h3>Almost! You answered 3 questions correct!</h3></div>)
+      return (<div><h3>You got 3 out of 8 correct!</h3></div>)
     }
     if (this.state.score === 2) {
-      return(<div><h3>Not bad! You answered 2 questions correctly! Give it another shot!</h3></div>)
-    }
-    if (this.state.score === 1) {
-      return (<div><h3>Well, 1 is better than none I guess... Try Again!!</h3></div>)
+      return (<div><h3>You got 2 out of 8 correct!</h3></div>)
     }
     else {
-      return (<div><h3>Start over and try this time..</h3></div>)
+      return (<div><h3>You suck.</h3></div>)
     }
   }
  
   render() {
     const { options, myAnswer, currentQuestion, isEnd } = this.state;
-    const percentage = ((currentQuestion) * 25);
+    const percentage = ((currentQuestion) * 12.5);
     const { showing } = this.state;
 
     if (isEnd) {

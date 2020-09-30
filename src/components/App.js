@@ -30,7 +30,7 @@ class App extends React.Component {
                 <Route path="/basketballhard" exact component={BasketballQuiz}/>
                 <Route path="/basketballeasy" exact component={BasketballEasyQuiz}/>
                 <Route path="/basketballmedium" exact component={BasketballMediumQuiz}/>
-                <Route path="/football" exact component={FootballQuiz}/>
+                <Route path="/footballhard" exact component={FootballQuiz}/>
                 <Route path="/footballeasy" exact component={FootballEasyQuiz}/>
                 <Route path="/footballmedium" exact component={FootballMediumQuiz}/>
                 <Route path="/baseballeasy" exact component={BaseballEasyQuiz}/>
