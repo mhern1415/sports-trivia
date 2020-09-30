@@ -1,51 +1,51 @@
 export const FootballMediumData = [
     {
       id: 0,
-      question: `In medium the NFL, how many points is a touchdown worth?`,
-      options: [`3`, `5`, `6`, `7`],
-      answer: `6`
+      question: `Peyton Manning is the only starting quarterback to win Super Bowls with two different teams. Name both teams.`,
+      options: [`Colts and Falcons`, `Broncos and Panthers`, `Colts and Broncos`, `Patriots and Colts`],
+      answer: `Colts and Broncos`
     },
     {
       id: 1,
-      question: `Which position is responsible for calling the plays on the field?`,
-      options: [`Tight End`, `Quarterback`, `Center`, `Linebacker`, `Wide Receiver`],
-      answer: `Quarterback`
+      question: `Which one of these teams has never won a Super Bowl?`,
+      options: [`Minnesota Vikings`, `Arizona Cardinals`, `Los Angeles Chargers`, `Houston Texans`, `All of the above`],
+      answer: `All of the above`
     },
     {
       id: 2,
-      question: `How many players take the field on defense?`,
-      options: [`9`, `13`, `12`, `11`, `14`],
-      answer: `11`
+      question: ` Who holds the record for career receptions?`,
+      options: [`Larry Fitzgerald`, `Tony Gonzalez`, `Jerry Rice`, `Randy Moss`],
+      answer: `Jerry Rice`
     },
     {
       id: 3,
-      question: `What is it called when the quarterback gets tackled before throwing the football?`,
-      options: [`Sack`, `Inside Tackle`, `Scrimmage Tackle`, `Down `],
-      answer: `Sack`
+      question: `The Patriots and Steelers lead NFL franchises with 6 Super Bowl Championships. Which two franchises are tied for second with 5 Super Bowl Championships?`,
+      options: [`49ers and Broncos`, `49ers and Cowboys`, `Cowboys and Packers`, `Packers and 49ers`],
+      answer: `49ers and Cowboys`
     },
     {
       id: 4,
-      question: `What is the name of the line where the ball is snapped?`,
-      options: [`Beginning Line`, `Line of Scrimmage`, `Line of Play`, `Starting Line`],
-      answer: `Line of Scrimmage`
+      question: `What is the name of the NFL's all-star exhibition game?`,
+      options: [`Pro Bowl`, `League All-Star Game`, `The NFL's Best Game`, `The NFL Classic`],
+      answer: `Pro Bowl`
     },
     {
       id: 5,
-      question: `How long is the football field, not including the end zones?`,
-      options: [`100 Yards`, `110 Yards`, `120 Yards`, `90 Yards`],
-      answer: `100 Yards`
+      question: `This NFL team came back from a 25 point deficit to win the Super Bowl. It was the largest comeback in Super Bowl history.`,
+      options: [`Kansas City Chiefs`, `Denver Broncos`, `Indianapolis Colts`, `New England Patriots`],
+      answer: `New England Patriots`
     },
     {
       id: 6,
-      question: `What is used to determine who gets the football first to start a game?`,
-      options: [`Rock, Paper, Scissors`, `Home team gets the ball first`, `Away team gets the ball first`, `Coin Flip`],
-      answer: `Coin Flip`
+      question: `Which NFL Quarterback has been in the most Super Bowls?`,
+      options: [`Tom Brady`, `Joe Montana`, `John Elway`, `Troy Aikman`],
+      answer: `Tom Brady`
     },
     {
       id: 7,
-      question: `How many points is a field goal worth?`,
-      options: [`4`, `3`, `5`, `2`],
-      answer: `3`
+      question: `This NFL player once celebrated a touchdown by grabbing a sharpie from his sock and signing the ball that he gave to a spectator.`,
+      options: [`Randy Moss`, `Terrell Owens`, `Jerry Rice`, `Larry Fitzgerald`, `Marvin Harrison`],
+      answer: `Terrell Owens`
     }
 
 
