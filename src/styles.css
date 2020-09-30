@@ -4,19 +4,20 @@
   color: #f1f2f6;
 }
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+p {
+  font-family: 'Play', sans-serif;
+}
 
 h3 {
   color: rgb(251, 255, 0);
   font-size: 3rem;
-  font-family: 'Josefin Sans', cursive;
-
+  font-family: 'Play', sans-serif;
 }
 h2 {
   color: rgb(255, 136, 0);
   font-size: 3rem;
-  font-family: 'Josefin Sans', cursive;
-
+  font-family: 'Play', sans-serif;
 }
 .card {
   color: rgb(255, 136, 0);
