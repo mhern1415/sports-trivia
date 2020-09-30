@@ -78,13 +78,13 @@ class FootballQuiz extends React.Component {
   };
   renderMessage = () => {
     if (this.state.score === 8) {
-      return (<div><h3>Nice! You got 8 out of 8 correct!</h3></div>)
+      return (<div><h3>Nice! You know your stuff. You got 8 out of 8 correct!</h3></div>)
     }
     if (this.state.score === 7) {
-      return (<div><h3>Not bad! You got 7 out of 8 correct!</h3></div>)
+      return (<div><h3>So close! You got 7 out of 8 correct!</h3></div>)
     }
     if (this.state.score === 6) {
-      return(<div><h3>You got 6 out of 8 correct!</h3></div>)
+      return(<div><h3>Not bad! You got 6 out of 8 correct!</h3></div>)
     }
     if (this.state.score === 5) {
       return (<div><h3>You got 5 out of 8 correct!</h3></div>)
@@ -99,7 +99,7 @@ class FootballQuiz extends React.Component {
       return (<div><h3>You got 2 out of 8 correct!</h3></div>)
     }
     else {
-      return (<div><h3>You suck.</h3></div>)
+      return (<div><h3>You've been shut out! You got zero questions correct.</h3></div>)
     }
   }
  
