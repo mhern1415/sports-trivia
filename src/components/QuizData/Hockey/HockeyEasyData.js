@@ -1,9 +1,9 @@
 export const FootballEasyData = [
     {
       id: 0,
-      question: `In the NFL, how many points is a touchdown worth?`,
-      options: [`3`, `5`, `6`, `7`],
-      answer: `6`
+      question: `What hockey position player is most likely to wear a throat protector?`,
+      options: [`Forward`, `Center`, `Goalie`, `Defenseman`],
+      answer: `Goalie`
     },
     {
       id: 1,
