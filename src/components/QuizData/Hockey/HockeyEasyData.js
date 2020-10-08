@@ -7,9 +7,9 @@ export const FootballEasyData = [
     },
     {
       id: 1,
-      question: `Which position is responsible for calling the plays on the field?`,
-      options: [`Tight End`, `Quarterback`, `Center`, `Linebacker`, `Wide Receiver`],
-      answer: `Quarterback`
+      question: `How many NHL teams are in California?`,
+      options: [`2`, `3`, `1`, `0`, `4`],
+      answer: `3`
     },
     {
       id: 2,
