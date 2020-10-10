@@ -1,53 +1,52 @@
-export const FootballData = [
-    {
-      id: 0,
-      question: `How many years must a player be retired to be eligible for the Pro Football Hall of Fame?`,
-      options: [`3 years`, `1 Year`, `4 Years`, `5 Years`],
-      answer: `5 Years`
-    },
-    {
-      id: 1,
-      question: `Which of the following teams were not part of the original NFL?`,
-      options: [`Chicago Bears`, `Miami Dolphins`, `Green Bay Packers`, `New York Giants`, `All of the above`],
-      answer: `Miami Dolphins`
-    },
-    {
-      id: 2,
-      question: `Which team was given the nickname "America's Team" in the 1979 NFL season?`,
-      options: [`Houston Texans`, `New England Patriots`, `Dallas Cowboys`, `Las Vegas Raiders`],
-      answer: `Dallas Cowboys`
-    },
-    {
-      id: 3,
-      question: `How many players are on each NFL team's roster?`,
-      options: [`53`, `45`, `48`, `59`],
-      answer: `53`
-    },
-    {
-      id: 4,
-      question: `Which team has the only undefeated season, including the postseason and the Super Bowl?`,
-      options: [`New England Patriots`, `Miami Dolphins`, `San Francisco 49ers`, `Dallas Cowboys`, `Green Bay Packers`],
-      answer: `Miami Dolphins`
-    },
-    {
-      id: 5,
-      question: `In every NFL game, how many referees are on the field officiating the game?`,
-      options: [`4`, `5`, `6`, `7`],
-      answer: `7`
-    },
-    {
-      id: 6,
-      question: `Which team holds the record of most points scored in a Super Bowl with 55?`,
-      options: [`New England Patriots`, `San Francisco 49ers`, `Dallas Cowboys`, `Las Vegas Raiders`, `Green Bay Packers`],
-      answer: `San Francisco 49ers`
-    },
-    {
-      id: 7,
-      question: `This kicker has the longest field goal in NFL history.`,
-      options: [`Matt Prater`, `Tom Dempsey`, `Sebastian Janikowsk`, `David Akers`],
-      answer: `Matt Prater`
-    }
-  
-  
-  ];
-  
+export const FootballEasyData = [
+  {
+    id: 0,
+    question: `What hockey position player is most likely to wear a throat protector?`,
+    options: [`Forward`, `Center`, `Goalie`, `Defenseman`],
+    answer: `Goalie`
+  },
+  {
+    id: 1,
+    question: `How many NHL teams are in California?`,
+    options: [`2`, `3`, `1`, `0`, `4`],
+    answer: `3`
+  },
+  {
+    id: 2,
+    question: `What is the name of the championship trophy in the NHL?`,
+    options: [`The Stanley Cup`, `The NHL Cup`, `The President's Trophy`, `The World Hockey Cup`],
+    answer: `The Stanley Cup`
+  },
+  {
+    id: 3,
+    question: `The Stars play in which American City?`,
+    options: [`San Jose`, `New York`, `Los Angeles`, `Dallas`],
+    answer: `Dallas`
+  },
+  {
+    id: 4,
+    question: `What does NHL stand for?`,
+    options: [`Northern Hockey League`, `National Hockey Link`, `Navy Hockey League`, `National Hockey League`],
+    answer: `National Hockey League`
+  },
+  {
+    id: 5,
+    question: `In hockey, what is a hat trick?`,
+    options: [`A team wins a game when the coach wears a lucky hat.`, `A player scoring 3 goals in a game`, `A player tricks the ref into reversing a call.`, `A goalie makes a save with his/her helmet.`],
+    answer: `A player scoring 3 goals in a game`
+  },
+  {
+    id: 6,
+    question: `Where does a player go if he recieves a penalty?`,
+    options: [`Penalty Box`, `Locker Room`, `He is disqualified`, `The bench`],
+    answer: `Penalty Box`
+  },
+  {
+    id: 7,
+    question: `What does the "five-hole" in hockey refer to??`,
+    options: [`The place where hockey pucks are stored before a game.`, `The place where a player sits while serving a penalty.`, `The spot on the ice where the puck is dropped.`, `The space between a goalie's leg pads.`],
+    answer: `The space between a goalie's leg pads.`
+  }
+
+
+];
