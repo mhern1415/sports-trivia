@@ -1,4 +1,4 @@
-export const FootballEasyData = [
+export const HockeyEasyData = [
     {
       id: 0,
       question: `What hockey position player is most likely to wear a throat protector?`,
