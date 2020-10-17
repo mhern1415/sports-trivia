@@ -1,9 +1,9 @@
 export const FootballEasyData = [
   {
     id: 0,
-    question: `What hockey position player is most likely to wear a throat protector?`,
-    options: [`Forward`, `Center`, `Goalie`, `Defenseman`],
-    answer: `Goalie`
+    question: `Which trophy is awarded to the team with the best regular season record?`,
+    options: [`Vezina Trophy`, `Hart Memorial Trophy`, `Prince of Wales Trophy`, `Presidents' Trophy`],
+    answer: `Presidents' Trophy`
   },
   {
     id: 1,
