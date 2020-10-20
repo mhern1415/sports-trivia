@@ -7,9 +7,9 @@ export const FootballEasyData = [
   },
   {
     id: 1,
-    question: `How many NHL teams are in California?`,
-    options: [`2`, `3`, `1`, `0`, `4`],
-    answer: `3`
+    question: `Which trophy is awarded to the champion of the Eastern Conference?`,
+    options: [`Vezina Trophy`, `Hart Memorial Trophy`, `Prince of Wales Trophy`, `Presidents' Trophy`],
+    answer: `Prince of Wales Trophy`
   },
   {
     id: 2,
