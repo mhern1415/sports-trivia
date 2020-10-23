@@ -42,7 +42,7 @@ const Header = () => {
             <Link to="hockeyeasy" className="item">
                 Hockey Easy
             </Link>
-            <Link to="hockeymediun" className="item">
+            <Link to="hockeymedium" className="item">
                 Hockey Medium
             </Link>
 
