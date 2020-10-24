@@ -1,4 +1,4 @@
-export const FootballEasyData = [
+export const HockeyMediumData = [
   {
     id: 0,
     question: `Which trophy is awarded to the team with the best regular season record?`,

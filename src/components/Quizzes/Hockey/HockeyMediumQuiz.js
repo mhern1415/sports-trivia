@@ -1,9 +1,9 @@
 import React from "react";
-import { HockeyEasyData } from "../../QuizData/Hockey/HockeyEasyData";
+import { HockeyMediumData } from "../../QuizData/Hockey/HockeyMediumData";
 import ProgressBar from 'react-bootstrap/ProgressBar'
 
 
-class HockeyEasyQuiz extends React.Component {
+class HockeyMediumQuiz extends React.Component {
   state = {
     currentQuestion: 0,
     myAnswer: null,
@@ -20,9 +20,9 @@ class HockeyEasyQuiz extends React.Component {
   loadQuizData = () => {
     this.setState(() => {
       return {
-        questions: HockeyEasyData[this.state.currentQuestion].question,
-        answer: HockeyEasyData[this.state.currentQuestion].answer,
-        options: HockeyEasyData[this.state.currentQuestion].options
+        questions: HockeyMediumData[this.state.currentQuestion].question,
+        answer: HockeyMediumData[this.state.currentQuestion].answer,
+        options: HockeyMediumData[this.state.currentQuestion].options
       };
     });
   };
@@ -51,9 +51,9 @@ class HockeyEasyQuiz extends React.Component {
       this.setState(() => {
         return {
           disabled: true,
-          questions: HockeyEasyData[this.state.currentQuestion].question,
-          options: HockeyEasyData[this.state.currentQuestion].options,
-          answer: HockeyEasyData[this.state.currentQuestion].answer
+          questions: HockeyMediumData[this.state.currentQuestion].question,
+          options: HockeyMediumData[this.state.currentQuestion].options,
+          answer: HockeyMediumData[this.state.currentQuestion].answer
         };
       });
     }
@@ -63,7 +63,7 @@ class HockeyEasyQuiz extends React.Component {
     this.setState({ myAnswer: answer, disabled: false });
   };
   finishHandler = () => {
-    if (this.state.currentQuestion === HockeyEasyData.length - 1) {
+    if (this.state.currentQuestion === HockeyMediumData.length - 1) {
       this.setState({
         isEnd: true
       });
@@ -118,7 +118,7 @@ class HockeyEasyQuiz extends React.Component {
           The correct answer's were:
 
           <ul>
-            {HockeyEasyData.map((item, index) => (
+            {HockeyMediumData.map((item, index) => (
               <li className="ui floating message options" key={index}>
                 {item.answer}
               </li>
@@ -140,7 +140,7 @@ class HockeyEasyQuiz extends React.Component {
           <br></br>
           <h3>{this.state.questions} </h3>
           <ProgressBar striped variant="warning" now={percentage} />
-          <span>{`Question ${currentQuestion + 1} of ${HockeyEasyData.length}`}</span>
+          <span>{`Question ${currentQuestion + 1} of ${HockeyMediumData.length}`}</span>
           {options.map(option => (
             <p
               key={option.id}
@@ -152,7 +152,7 @@ class HockeyEasyQuiz extends React.Component {
               {option}
             </p>
           ))}
-          {currentQuestion < HockeyEasyData.length - 1 && (
+          {currentQuestion < HockeyMediumData.length - 1 && (
             <button
               className="ui inverted button"
               disabled={this.state.disabled}
@@ -162,7 +162,7 @@ class HockeyEasyQuiz extends React.Component {
             </button>
           )}
           {/* //adding a finish button */}
-          {currentQuestion === HockeyEasyData.length - 1 && (
+          {currentQuestion === HockeyMediumData.length - 1 && (
             <button className="ui inverted button" onClick={this.finishHandler}>
               Finish
             </button>
@@ -174,4 +174,4 @@ class HockeyEasyQuiz extends React.Component {
   }
 }
 
-export default HockeyEasyQuiz;
+export default HockeyMediumQuiz;
