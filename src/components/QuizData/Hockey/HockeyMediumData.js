@@ -13,9 +13,9 @@ export const HockeyMediumData = [
   },
   {
     id: 2,
-    question: `What is the name of the championship trophy in the NHL?`,
-    options: [`The Stanley Cup`, `The NHL Cup`, `The President's Trophy`, `The World Hockey Cup`],
-    answer: `The Stanley Cup`
+    question: `Who is the all time leading goal scorer?`,
+    options: [`Wayne Gretzky`, `Gordie Howe`, `Jaromir Jagr`, `Brett Hull`],
+    answer: `Wayne Gretzky`
   },
   {
     id: 3,
