@@ -1,21 +1,21 @@
-export const FootballEasyData = [
+export const HockeyHardData = [
   {
     id: 0,
-    question: `What hockey position player is most likely to wear a throat protector?`,
-    options: [`Forward`, `Center`, `Goalie`, `Defenseman`],
-    answer: `Goalie`
+    question: `Which trophy is awarded to the team with the best regular season record?`,
+    options: [`Vezina Trophy`, `Hart Memorial Trophy`, `Prince of Wales Trophy`, `Presidents' Trophy`],
+    answer: `Presidents' Trophy`
   },
   {
     id: 1,
-    question: `How many NHL teams are in California?`,
-    options: [`2`, `3`, `1`, `0`, `4`],
-    answer: `3`
+    question: `Which trophy is awarded to the champion of the Eastern Conference?`,
+    options: [`Vezina Trophy`, `Hart Memorial Trophy`, `Prince of Wales Trophy`, `Presidents' Trophy`],
+    answer: `Prince of Wales Trophy`
   },
   {
     id: 2,
-    question: `What is the name of the championship trophy in the NHL?`,
-    options: [`The Stanley Cup`, `The NHL Cup`, `The President's Trophy`, `The World Hockey Cup`],
-    answer: `The Stanley Cup`
+    question: `Who is the all time leading goal scorer?`,
+    options: [`Wayne Gretzky`, `Gordie Howe`, `Jaromir Jagr`, `Brett Hull`],
+    answer: `Wayne Gretzky`
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ export const FootballEasyData = [
   {
     id: 6,
     question: `Where does a player go if he recieves a penalty?`,
-    options: [`Penalty Box`, `Locker Room`, `He is disqualified`, `The bench`],
+    options: [`Penalty Box`, `Locker Room`, `He is disqualified`, `The bench`, 'Stays on the ice but without pads'],
     answer: `Penalty Box`
   },
   {
