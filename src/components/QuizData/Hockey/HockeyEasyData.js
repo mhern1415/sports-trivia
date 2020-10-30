@@ -43,7 +43,7 @@ export const HockeyEasyData = [
     },
     {
       id: 7,
-      question: `What does the "five-hole" in hockey refer to??`,
+      question: `What does the "five-hole" in hockey refer to?`,
       options: [`The place where hockey pucks are stored before a game.`, `The place where a player sits while serving a penalty.`, `The spot on the ice where the puck is dropped.`, `The space between a goalie's leg pads.`],
       answer: `The space between a goalie's leg pads.`
     }
