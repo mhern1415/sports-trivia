@@ -19,33 +19,33 @@ export const HockeyMediumData = [
   },
   {
     id: 3,
-    question: `The Stars play in which American City?`,
-    options: [`San Jose`, `New York`, `Los Angeles`, `Dallas`],
-    answer: `Dallas`
+    question: `Who/what is the Stanley Cup named after?`,
+    options: [`Port Stanley, Ontario`, `Lord Stanley of Preston`, `The Stanley Hotel in Estes Park. Colorado`, `Stanley Hudson`],
+    answer: `Lord Stanley of Preston`
   },
   {
     id: 4,
-    question: `What does NHL stand for?`,
-    options: [`Northern Hockey League`, `National Hockey Link`, `Navy Hockey League`, `National Hockey League`],
-    answer: `National Hockey League`
+    question: `What is the area immediately in front of the goal called?`,
+    options: [`The Crease`, `The Hemishere`, `The Globe`, `The Net`],
+    answer: `The Crease`
   },
   {
     id: 5,
-    question: `In hockey, what is a hat trick?`,
-    options: [`A team wins a game when the coach wears a lucky hat.`, `A player scoring 3 goals in a game`, `A player tricks the ref into reversing a call.`, `A goalie makes a save with his/her helmet.`],
-    answer: `A player scoring 3 goals in a game`
+    question: `Which country do most NHL players come from?`,
+    options: [ `United States`, `Finland`, `Sweden`, `Canada`],
+    answer: `Canada`
   },
   {
     id: 6,
-    question: `Where does a player go if he recieves a penalty?`,
-    options: [`Penalty Box`, `Locker Room`, `He is disqualified`, `The bench`, 'Stays on the ice but without pads'],
-    answer: `Penalty Box`
+    question: `How thick is the ice in an NHL arena?`,
+    options: [`5"`, `1/2"`, `3/4"`, `1"`],
+    answer: `3/4"`
   },
   {
     id: 7,
-    question: `What does the "five-hole" in hockey refer to??`,
-    options: [`The place where hockey pucks are stored before a game.`, `The place where a player sits while serving a penalty.`, `The spot on the ice where the puck is dropped.`, `The space between a goalie's leg pads.`],
-    answer: `The space between a goalie's leg pads.`
+    question: `When a player is given a penalty and his team plays with one fewer player on the ice, the other team is said to have what?`,
+    options: [`Breakaway`, `Power Play`, `Game Winner`, `Man Down`],
+    answer: `Power Play`
   }
 
 
