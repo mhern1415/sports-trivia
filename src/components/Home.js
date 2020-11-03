@@ -10,7 +10,7 @@ return (
     <br></br>
     </div>
         <div className="home">
-            <div className="ui stackable three column grid">
+            <div className="ui stackable four column grid">
                 
                 <div className="column">
                     <div className="ui centered card">
@@ -72,6 +72,23 @@ return (
                     <div className="content"><Link to="/basketball" className="item">
                     <button class="ui yellow massive labeled icon button">
                     <i class="basketball ball icon"></i>Hard Quiz</button>
+                    </Link></div>
+                    </div>
+                </div>
+                <div className="column">
+                    <div className="ui centered card">
+                    <div class="header"><h2>Hockey</h2></div>
+                    <div className="content"><Link to="/hockeyeasy" className="item">
+                    <button class="ui yellow massive labeled icon button">
+                    <i class="hockey puck icon"></i>Easy Quiz</button>
+                    </Link></div>
+                    <div className="content"><Link to="/hockeymedium" className="item">
+                    <button class="ui yellow massive labeled icon button">
+                    <i class="hockey puck icon"></i>Medium Quiz</button>
+                    </Link></div>
+                    <div className="content"><Link to="/hockeyhard" className="item">
+                    <button class="ui yellow massive labeled icon button">
+                    <i class="hockey puck icon"></i>Hard Quiz</button>
                     </Link></div>
                     </div>
                 </div>
