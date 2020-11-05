@@ -1,21 +1,21 @@
 export const HockeyHardData = [
   {
     id: 0,
-    question: `Which trophy is awarded to the team with the best regular season record?`,
-    options: [`Vezina Trophy`, `Hart Memorial Trophy`, `Prince of Wales Trophy`, `Presidents' Trophy`],
-    answer: `Presidents' Trophy`
+    question: `How many years did it take the expansion Vegas Golden Knights to reach the Stanley Cup Finals?`,
+    options: [`3`, `1`, `4`, `2`],
+    answer: `1`
   },
   {
     id: 1,
-    question: `Which trophy is awarded to the champion of the Eastern Conference?`,
-    options: [`Vezina Trophy`, `Hart Memorial Trophy`, `Prince of Wales Trophy`, `Presidents' Trophy`],
-    answer: `Prince of Wales Trophy`
+    question: `Who was the first African-American hockey player named to a Team USA Olympic roster?`,
+    options: [`Mike Grier`, `Dustin Byfuglien`, `Jordan Greenway`, `Seth Jones`],
+    answer: `Jordan Greenway`
   },
   {
     id: 2,
-    question: `Who is the all time leading goal scorer?`,
-    options: [`Wayne Gretzky`, `Gordie Howe`, `Jaromir Jagr`, `Brett Hull`],
-    answer: `Wayne Gretzky`
+    question: `Wayne Gretzky holds the NHL record for most goals scored in a single season. How many goals did he score to set the record?`,
+    options: [`92`, `82`, `J95`, `79`],
+    answer: `92`
   },
   {
     id: 3,
