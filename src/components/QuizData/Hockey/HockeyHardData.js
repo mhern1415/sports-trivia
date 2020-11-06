@@ -19,9 +19,9 @@ export const HockeyHardData = [
   },
   {
     id: 3,
-    question: `The Stars play in which American City?`,
-    options: [`San Jose`, `New York`, `Los Angeles`, `Dallas`],
-    answer: `Dallas`
+    question: `Which team has won the most Stanley Cups?`,
+    options: [`Detroit Red Wings`, `Pittsburgh Penguins`, `Boston Bruins`, `Montreal Canadiens`],
+    answer: `Montreal Canadiens`
   },
   {
     id: 4,
