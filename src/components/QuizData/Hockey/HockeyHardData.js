@@ -25,9 +25,9 @@ export const HockeyHardData = [
   },
   {
     id: 4,
-    question: `What does NHL stand for?`,
-    options: [`Northern Hockey League`, `National Hockey Link`, `Navy Hockey League`, `National Hockey League`],
-    answer: `National Hockey League`
+    question: `The Hockey Hall of Fame is located in what city?`,
+    options: [`Toronto, Ontario`, `New York, New York`, `Cooperstown, New York`, `Las Vegas, Nevada`],
+    answer: `Toronto, Ontario`
   },
   {
     id: 5,
