@@ -31,9 +31,9 @@ export const HockeyHardData = [
   },
   {
     id: 5,
-    question: `In hockey, what is a hat trick?`,
-    options: [`A team wins a game when the coach wears a lucky hat.`, `A player scoring 3 goals in a game`, `A player tricks the ref into reversing a call.`, `A goalie makes a save with his/her helmet.`],
-    answer: `A player scoring 3 goals in a game`
+    question: `What is the name of the award for the league's best goalie?`,
+    options: [`The Norris Trophy`, `The Goalie's Cup`, `The Vezina Trophy`, `The Verrazano Trophy`],
+    answer: `The Vezina Trophy`
   },
   {
     id: 6,
