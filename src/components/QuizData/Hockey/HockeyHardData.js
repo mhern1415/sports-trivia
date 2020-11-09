@@ -43,9 +43,9 @@ export const HockeyHardData = [
   },
   {
     id: 7,
-    question: `What does the "five-hole" in hockey refer to??`,
-    options: [`The place where hockey pucks are stored before a game.`, `The place where a player sits while serving a penalty.`, `The spot on the ice where the puck is dropped.`, `The space between a goalie's leg pads.`],
-    answer: `The space between a goalie's leg pads.`
+    question: `What does it mean when someone gets a "Gordie Howe hat trick"?`,
+    options: [`Three goals in one period`, `Three assists`, `Three fights in one game`, `Score a goal, get in a fight and get an assist`],
+    answer: `Scores a goal, gets in a fight and gets an assist`
   }
 
 
