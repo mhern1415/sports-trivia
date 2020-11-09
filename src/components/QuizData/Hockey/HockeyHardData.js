@@ -37,9 +37,9 @@ export const HockeyHardData = [
   },
   {
     id: 6,
-    question: `Where does a player go if he recieves a penalty?`,
-    options: [`Penalty Box`, `Locker Room`, `He is disqualified`, `The bench`, 'Stays on the ice but without pads'],
-    answer: `Penalty Box`
+    question: `Which goalie holds the NHL record for most shutouts in his career?`,
+    options: [`Turk Broda`, `Martin Brodeur`, `Dominik Hašek`, `Terry Sawchuk`],
+    answer: `Martin Brodeur`
   },
   {
     id: 7,
