@@ -14,7 +14,7 @@ export const HockeyHardData = [
   {
     id: 2,
     question: `Wayne Gretzky holds the NHL record for most goals scored in a single season. How many goals did he score to set the record?`,
-    options: [`92`, `82`, `J95`, `79`],
+    options: [`92`, `82`, `95`, `79`],
     answer: `92`
   },
   {
