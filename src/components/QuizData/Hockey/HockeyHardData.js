@@ -44,8 +44,8 @@ export const HockeyHardData = [
   {
     id: 7,
     question: `What does it mean when someone gets a "Gordie Howe hat trick"?`,
-    options: [`Three goals in one period`, `Three assists`, `Three fights in one game`, `Score a goal, get in a fight and get an assist`],
-    answer: `Scores a goal, gets in a fight and gets an assist`
+    options: [`Three goals in one period`, `Three assists`, `Three fights in one game`, `Score a goal, get in a fight, and get an assist`],
+    answer: `Score a goal, get in a fight, and get an assist`
   }
 
 
