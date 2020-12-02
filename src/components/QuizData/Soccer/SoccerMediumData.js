@@ -1,8 +1,8 @@
 export const HockeyEasyData = [
     {
       id: 0,
-      question: `The goalkeepers are the only players allowed to do what?`,
-      options: [`To touch the ball anywhere on the field.`, `To touch the ball with their hands or arms while it is in play and only in their penalty area.`, `To hit the ball with their head`, `To yell at the referee`],
+      question: `How long is a goalie allowed to have the ball in her hands?`,
+      options: [`3 Seconds`, `5 Seconds`, `As long as necessary`, `6 Seconds`],
       answer: `To touch the ball with their hands or arms while it is in play and only in their penalty area.`
     },
     {
