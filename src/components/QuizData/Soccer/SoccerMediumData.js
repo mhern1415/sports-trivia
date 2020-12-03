@@ -1,9 +1,9 @@
 export const HockeyEasyData = [
     {
       id: 0,
-      question: `How long is a goalie allowed to have the ball in her hands?`,
+      question: `How long is a goalie allowed to have the ball in his/her hands?`,
       options: [`3 Seconds`, `5 Seconds`, `As long as necessary`, `6 Seconds`],
-      answer: `To touch the ball with their hands or arms while it is in play and only in their penalty area.`
+      answer: `6 Seconds`
     },
     {
       id: 1,
@@ -13,7 +13,7 @@ export const HockeyEasyData = [
     },
     {
       id: 2,
-      question: `What is the name of the championship trophy in the NHL?`,
+      question: `A soccer game is divided into what?`,
       options: [`The Stanley Cup`, `The NHL Cup`, `The President's Trophy`, `The World Hockey Cup`],
       answer: `The Stanley Cup`
     },

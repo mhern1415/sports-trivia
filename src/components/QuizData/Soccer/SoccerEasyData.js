@@ -13,9 +13,9 @@ export const HockeyEasyData = [
     },
     {
       id: 2,
-      question: `What is the name of the championship trophy in the NHL?`,
-      options: [`The Stanley Cup`, `The NHL Cup`, `The President's Trophy`, `The World Hockey Cup`],
-      answer: `The Stanley Cup`
+      question: `A soccer game is divided into what?`,
+      options: [`Quarters`, `Innings`, `Thirds`, `Halves`],
+      answer: `Halves`
     },
     {
       id: 3,
