@@ -7,9 +7,9 @@ export const HockeyEasyData = [
     },
     {
       id: 1,
-      question: `What is another common name for soccer?`,
-      options: [`Foosball`, `Handball`, `Rugby`, `Football`, `Soccer Union`],
-      answer: `Football`
+      question: `"Striker" is another name for which position?`,
+      options: [`Forward`, `Midfielder`, `Goalie`, `Football`, `Team Captain`],
+      answer: `Forward`
     },
     {
       id: 2,
