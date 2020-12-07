@@ -25,15 +25,15 @@ export const HockeyEasyData = [
     },
     {
       id: 4,
-      question: `What does NHL stand for?`,
-      options: [`Northern Hockey League`, `National Hockey Link`, `Navy Hockey League`, `National Hockey League`],
-      answer: `National Hockey League`
+      question: `What does a yellow card signify?`,
+      options: [`A direct free kick`, `A player is offside`, `A caution`, `Unsportsmanlike Conduct`],
+      answer: `A caution`
     },
     {
       id: 5,
-      question: `In hockey, what is a hat trick?`,
-      options: [`A team wins a game when the coach wears a lucky hat.`, `A player scoring 3 goals in a game`, `A player tricks the ref into reversing a call.`, `A goalie makes a save with his/her helmet.`],
-      answer: `A player scoring 3 goals in a game`
+      question: `How long is a standard soccer game? (Not including stoppages and halftime)`,
+      options: [`60 Minutes`, `75 Minutes`, `90 Minutes`, `100 Minutes`],
+      answer: `90 Minutes`
     },
     {
       id: 6,
