@@ -19,9 +19,9 @@ export const HockeyEasyData = [
     },
     {
       id: 3,
-      question: `The Stars play in which American City?`,
-      options: [`San Jose`, `New York`, `Los Angeles`, `Dallas`],
-      answer: `Dallas`
+      question: `What color card marks an expulsion?`,
+      options: [`Red`, `Yellow`, `Green`, `Blue`],
+      answer: `Red`
     },
     {
       id: 4,
