@@ -37,9 +37,9 @@ export const HockeyEasyData = [
     },
     {
       id: 6,
-      question: `Where does a player go if he recieves a penalty?`,
-      options: [`Penalty Box`, `Locker Room`, `He is disqualified`, `The bench`],
-      answer: `Penalty Box`
+      question: `What is a soccer field called?`,
+      options: [`Box`, `Court`, `Paddoc`, `Pitch`],
+      answer: `Pitch`
     },
     {
       id: 7,
