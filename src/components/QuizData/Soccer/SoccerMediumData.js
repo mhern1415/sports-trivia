@@ -13,9 +13,9 @@ export const HockeyEasyData = [
     },
     {
       id: 2,
-      question: `A soccer game is divided into what?`,
-      options: [`The Stanley Cup`, `The NHL Cup`, `The President's Trophy`, `The World Hockey Cup`],
-      answer: `The Stanley Cup`
+      question: `Which of these is NOT a real soccer position?`,
+      options: [`Striker`, `Midfielder`, `Wingman`, `Fullback`],
+      answer: `Wingman`
     },
     {
       id: 3,
