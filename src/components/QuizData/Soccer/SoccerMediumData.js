@@ -19,10 +19,10 @@ export const HockeyEasyData = [
     },
     {
       id: 3,
-      question: `The Stars play in which American City?`,
-      options: [`San Jose`, `New York`, `Los Angeles`, `Dallas`],
-      answer: `Dallas`
-    },
+      question: `If an offensive player is fouled in the box, the result is a _________kick. `,
+      options: [`Corner`, `Direct`, `Penalty`, `Indirect`],
+      answer: `Penalty`
+      },
     {
       id: 4,
       question: `What does NHL stand for?`,
