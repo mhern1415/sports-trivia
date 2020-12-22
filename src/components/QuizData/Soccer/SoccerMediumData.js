@@ -25,9 +25,9 @@ export const HockeyEasyData = [
       },
     {
       id: 4,
-      question: `What does NHL stand for?`,
-      options: [`Northern Hockey League`, `National Hockey Link`, `Navy Hockey League`, `National Hockey League`],
-      answer: `National Hockey League`
+      question: `A penalty kick is taken _____________ yards away from the goal line`,
+      options: [`5 Yards`, `12 Yards`, `27 Yards`, `50 Yards`],
+      answer: `12 Yards`
     },
     {
       id: 5,
