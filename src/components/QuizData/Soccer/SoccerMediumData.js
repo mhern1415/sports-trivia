@@ -31,9 +31,9 @@ export const HockeyEasyData = [
     },
     {
       id: 5,
-      question: `In hockey, what is a hat trick?`,
-      options: [`A team wins a game when the coach wears a lucky hat.`, `A player scoring 3 goals in a game`, `A player tricks the ref into reversing a call.`, `A goalie makes a save with his/her helmet.`],
-      answer: `A player scoring 3 goals in a game`
+      question: `What basic soccer skill is used when the ball goes out of bounds on the sideline?`,
+      options: [`Throw In`, `Bicycle Kick`, `Dribbling`, `One-Time Pass`],
+      answer: `Throw In`
     },
     {
       id: 6,
