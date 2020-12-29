@@ -1,4 +1,4 @@
-export const HockeyEasyData = [
+export const SoccerEasyData = [
     {
       id: 0,
       question: `The goalkeepers are the only players allowed to do what?`,
