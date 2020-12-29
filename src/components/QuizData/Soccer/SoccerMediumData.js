@@ -37,9 +37,9 @@ export const HockeyEasyData = [
     },
     {
       id: 6,
-      question: `Where does a player go if he recieves a penalty?`,
-      options: [`Penalty Box`, `Locker Room`, `He is disqualified`, `The bench`],
-      answer: `Penalty Box`
+      question: `If the defending team kicks the ball out on their own goal line, what kind of kick brings the ball back in?`,
+      options: [`Penalty Kick`, `Goal Kick`, `Corner Kick`, `Free Kick`],
+      answer: `Corner Kick`
     },
     {
       id: 7,
