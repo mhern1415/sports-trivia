@@ -47,7 +47,10 @@ const Header = () => {
             </Link>
             <Link to="hockeyhard" className="item">
                 Hockey Hard
-            </Link>            
+            </Link>  
+            <Link to="soccereasy" className="item">
+                Soccer Easy
+            </Link>           
     </DropdownButton>
     <h2 className="title">Sports Trivia </h2>
 
