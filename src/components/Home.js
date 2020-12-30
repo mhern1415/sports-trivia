@@ -10,7 +10,7 @@ return (
     <br></br>
     </div>
         <div className="home">
-            <div className="ui stackable four column grid">
+            <div className="ui stackable five column grid">
                 
                 <div className="column">
                     <div className="ui centered card">
