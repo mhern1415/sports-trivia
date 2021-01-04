@@ -50,6 +50,9 @@ const Header = () => {
             </Link>  
             <Link to="soccereasy" className="item">
                 Soccer Easy
+            </Link>  
+            <Link to="soccermedium" className="item">
+                Soccer Medium
             </Link>           
     </DropdownButton>
     <h2 className="title">Sports Trivia </h2>
