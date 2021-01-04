@@ -75,6 +75,7 @@ class SoccerMediumQuiz extends React.Component {
     }
   };
   renderMessage = () => {
+      
     if (this.state.score === 8) {
       return (<div><h3>Nice! You know your stuff. You got 8 out of 8 correct!</h3></div>)
     }
