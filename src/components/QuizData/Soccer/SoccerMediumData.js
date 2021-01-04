@@ -1,4 +1,4 @@
-export const HockeyEasyData = [
+export const SoccerMediumData = [
     {
       id: 0,
       question: `How long is a goalie allowed to have the ball in his/her hands?`,
