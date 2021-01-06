@@ -92,6 +92,23 @@ return (
                     </Link></div>
                     </div>
                 </div>
+                <div className="column">
+                    <div className="ui centered card">
+                    <div class="header"><h2>Soccer</h2></div>
+                    <div className="content"><Link to="/soccereasy" className="item">
+                    <button class="ui yellow massive labeled icon button">
+                    <i class="futbol icon"></i>Easy Quiz</button>
+                    </Link></div>
+                    <div className="content"><Link to="/soccermedium" className="item">
+                    <button class="ui yellow massive labeled icon button">
+                    <i class="futbol icon"></i>Medium Quiz</button>
+                    </Link></div>
+                    <div className="content"><Link to="/soccereasy" className="item">
+                    <button class="ui yellow massive labeled icon button">
+                    <i class="futbol icon"></i>Hard Quiz</button>
+                    </Link></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
