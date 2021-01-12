@@ -17,6 +17,8 @@ import HockeyMediumQuiz from './Quizzes/Hockey/HockeyMediumQuiz'
 import HockeyHardQuiz from './Quizzes/Hockey/HockeyHardQuiz'
 import SoccerEasyQuiz from './Quizzes/Soccer/SoccerEasyQuiz'
 import SoccerMediumQuiz from './Quizzes/Soccer/SoccerMediumQuiz'
+import SoccerHardQuiz from './Quizzes/Soccer/SoccerHardQuiz'
+
 
 
 
@@ -49,6 +51,7 @@ class App extends React.Component {
                 <Route path="/hockeyhard" exact component={HockeyHardQuiz}/>
                 <Route path="/soccereasy" exact component={SoccerEasyQuiz}/>
                 <Route path="/soccermedium" exact component={SoccerMediumQuiz}/>
+                <Route path="/soccerhard" exact component={SoccerHardQuiz}/>
                 <Route path="/" exact component={Home}/>
                 <Route path="/main" exact component={MainQuiz}/>
 
